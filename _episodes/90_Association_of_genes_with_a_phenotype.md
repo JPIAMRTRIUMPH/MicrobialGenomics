@@ -2,7 +2,7 @@
 start: false
 title: "Self Study: Bacterial GWAS"
 teaching: 0
-exercises: 90
+exercises: 0
 questions:
 - "Which genes are associated with resistance"
 objectives:
