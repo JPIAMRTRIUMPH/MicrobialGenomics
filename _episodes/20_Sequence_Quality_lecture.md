@@ -1,8 +1,8 @@
 ---
 start: false
 title: "Sequence Read Quality Lecture"
-exercises: 30
-teaching: 30
+exercises: 5
+teaching: 20
 questions:
 - "How does sequencing work"
 - "Where do the errors come from"
