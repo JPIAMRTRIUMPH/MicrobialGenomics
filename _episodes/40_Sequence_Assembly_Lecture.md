@@ -2,7 +2,7 @@
 start: false
 title: "Sequence Assembly Lecture"
 exercises: 0
-teaching: 60
+teaching: 30
 questions:
 - "How can the information in the sequencing reads be reduced?"
 - "What are the different methods for assembly?"
