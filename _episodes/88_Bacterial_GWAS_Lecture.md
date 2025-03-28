@@ -1,6 +1,6 @@
 ---
 start: false
-title: "Bacterial GWAS Lecture"
+title: "Self Study: Bacterial GWAS Lecture"
 exercises: 0
 teaching: 60
 questions:
