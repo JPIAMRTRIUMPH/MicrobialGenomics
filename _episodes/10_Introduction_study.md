@@ -16,15 +16,15 @@ keypoints:
 
 ## Introduction
 
-We will be making use of the command line interface on the [Jupyterhub site](https://klif2.uu.nl/). 
+We will be making use of the command line interface on the [Jupyterhub site](https://klif.uu.nl:8080/). 
 
 ### Dataset
 
-Introduction to the dataset is given in the [presentation](https://klif.uu.nl/klif/coincide/coincide_microbialgenomics_introduction.pdf). In total we will be analyzing 35 E. coli genomes sequencing using Nanopore.
+Introduction to the dataset is given in the [presentation](https://klif.uu.nl/klif/triumph/microbialgenomics_introduction.pdf). In total we will be analyzing 35 E. coli genomes sequencing using Nanopore.
 
 ### How to login
 
-The server we will be using has host address [Jupyterhub site](https://klif2.uu.nl/). Please login using your webbrowser. The username and password have been given in the group chat. Please take a look at the  the [Google Sheets table](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit?usp=sharing) and write your name in the appropriate field to find out which two samples are assigned to you. To acccess the terminal, click on "New", top left and open "Linux Terminal". Bookmark it and give it an appropriate name so you can find it again later. 
+The server we will be using has host address [Jupyterhub site](https://klif.uu.nl:8080/). Please login using your webbrowser. The username and password have been given in the group chat. Please take a look at the  the [Google Sheets table](https://docs.google.com/x) and write your name in the appropriate field to find out which two samples are assigned to you. To acccess the terminal, click on "New", top left and open "Linux Terminal". Bookmark it and give it an appropriate name so you can find it again later. 
 
 ### Where are the files located
 
