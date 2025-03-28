@@ -7,7 +7,7 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 COINCIDE edition.
 
 > ## Prokaryotic microbes - Assembly, annotation, pangenome analysis and GWAS
-> This practical is part of the Microbial Genomics practical course of Utrecht University adapted for the JPIAMR COINCIDE project. 
+> This practical is part of the Microbial Genomics practical course of Utrecht University adapted for the JPIAMR TRIuMPH project. 
 >  
 > 1.  Working with genome assemblies, QC and annotation of genomes
 > 2.  Pangenome analysis, genomic phylogenetic trees and GWAS
