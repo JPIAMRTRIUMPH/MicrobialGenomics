@@ -4,14 +4,13 @@ title: "Phylogenetic trees from the core genome"
 teaching: 10
 exercises: 25
 questions:
-- "What is better, a gene presence absence tree or a tree from core genes/proteins"
 - "Is there a specific clone associated with resistance"
 objectives:
-- "How to determine a build a tree from a set of conserved proteins"
+- "How to determine a build a tree from a set of core genes"
 - "Compare the tree with the gene absence presence tree"
 - "Colour the tree with annotation data"
 keypoints:
-- "A tree can be generated from a combined set of proteins for better resolution. More proteins = more resolution"
+- "A tree can be generated from a combined set of genes for better resolution. More genes = more resolution"
 ---
 
 ## Building a super alignment tree
