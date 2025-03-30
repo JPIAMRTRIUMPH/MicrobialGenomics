@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/64582f44-87bf-4831-ae51-32ced9c017e8)---
+---
 title: "Introduction"
 exercises: 10
 teaching: 20
