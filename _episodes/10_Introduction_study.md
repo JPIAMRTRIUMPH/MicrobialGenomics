@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/64582f44-87bf-4831-ae51-32ced9c017e8)---
 title: "Introduction"
 exercises: 10
 teaching: 20
@@ -25,6 +25,11 @@ Introduction to the dataset is given in the [presentation](https://klif.uu.nl/kl
 ### How to login
 
 The server we will be using has host address [Jupyterhub site](https://klif.uu.nl:8080/). Please login using your webbrowser. The username and password have been given in the group chat. Please take a look at the  the [Google Sheets table](https://docs.google.com/x) and write your name in the appropriate field to find out which two samples are assigned to you. To acccess the terminal, click on "New", top left and open "Linux Terminal". Bookmark it and give it an appropriate name so you can find it again later. 
+
+### Learning how the speak the language of the Linux commandline. 
+
+We will make use of a lecture and a set of exercises originally developed for the COINCIDE course by Rahadian Pratama, Soe Yu Naing and Aldert Zomer. After this basic Linux command line course which we will do together, we will continue on with the rest of the course which can be done at your own pace. The lecture is available here but will also be presented on screen.  
+The lecture can be found here: Link
 
 ### Where are the files located
 
