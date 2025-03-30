@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-exercises: 100
-teaching: 100
+exercises: 80
+teaching: 40
 questions:
 - "Where does the dataset come from?"
 - "How to login"
