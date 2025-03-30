@@ -1,4 +1,4 @@
----
+--- 
 title: "Visualizing genomic regions using Clinker"
 start: false
 teaching: 10
