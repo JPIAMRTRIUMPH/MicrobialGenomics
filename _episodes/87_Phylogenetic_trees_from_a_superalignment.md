@@ -2,7 +2,7 @@
 start: false
 title: "Phylogenetic trees from the core genome"
 teaching: 10
-exercises: 25
+exercises: 60
 questions:
 - "Is there a specific clone associated with resistance"
 objectives:
