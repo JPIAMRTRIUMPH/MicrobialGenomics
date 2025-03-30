@@ -3,6 +3,7 @@ title: "Introduction"
 exercises: 80
 teaching: 40
 questions:
+- "How to speak the languange of the commandline"
 - "Where does the dataset come from?"
 - "How to login"
 - "Where are the files located"
