@@ -16,6 +16,8 @@ keypoints:
 
 ## Introduction
 
+In case you come from a computational background and need an introduction to the why and how of sequencing for molecular epidemiology of pathogens, please follow this presentation: Link
+
 We will be making use of the command line interface on the [Jupyterhub site](https://klif.uu.nl:8080/). 
 
 ### Dataset
