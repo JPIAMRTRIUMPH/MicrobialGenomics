@@ -30,7 +30,8 @@ The server we will be using has host address [Jupyterhub site](https://klif.uu.n
 
 ### Learning how the speak the language of the Linux commandline. 
 
-We will make use of a lecture and a set of exercises originally developed for the COINCIDE course by Rahadian Pratama, Soe Yu Naing and Aldert Zomer. After this basic Linux command line course which we will do together, we will continue on with the rest of the course which can be done at your own pace. The lecture is available here but will also be presented on screen.  
+We will make use of a lecture and a set of exercises originally developed for the Fleming Fund / JPIAMR COINCIDE course by Rahadian Pratama, Soe Yu Naing and Aldert Zomer. After this basic Linux command line course which we will do together, we will continue on with the rest of the course which can be done at your own pace. The lecture is available here but will also be presented on screen.  
+
 The lecture can be found here: Link
 
 ### Where are the files located
