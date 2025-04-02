@@ -27,13 +27,13 @@ The server we will be using has host address [Jupyterhub site](https://klif.uu.n
 
 ### Learning how the speak the language of the Linux commandline. 
 
-We will make use of a lecture and a set of exercises originally developed for the Fleming Fund / JPIAMR COINCIDE course by Rahadian Pratama, Soe Yu Naing and Aldert Zomer. After this basic Linux command line course which we will do together, we will continue on with the rest of the course which can be done at your own pace. The lecture is available here but will also be presented on screen.  
+We will make use of a lecture and a set of exercises originally developed for the Fleming Fund / JPIAMR COINCIDE course by Rahadian Pratama, Soe Yu Naing and Aldert Zomer. After this basic Linux command line course which we will do together, we will continue on with the rest of the course which can be done at your own pace. The lecture and exercises are available below but will also be presented on screen.  
 
 The lecture can be found here: [Link](https://jpiamrtriumph.github.io/MicrobialGenomics/files/Intro%20Linux%20Commandline%20and%20Nanopore%20Microbial%20Genomics%20Course.pptx)
 
 ### Dataset
 
-The dataset we will be using comes from this paper: [Within-farm dynamics of ESBL-producing Escherichia coli in dairy cattle: Resistance profiles and molecular characterization by long-read whole-genome sequencing](https://pmc.ncbi.nlm.nih.gov/articles/PMC9366117/). The files have been downloaded from [ENA](https://www.ebi.ac.uk/ena/browser/view/PRJNA833969).
+The ESBL resistant dataset we will be using comes from this paper: [Within-farm dynamics of ESBL-producing Escherichia coli in dairy cattle: Resistance profiles and molecular characterization by long-read whole-genome sequencing](https://pmc.ncbi.nlm.nih.gov/articles/PMC9366117/) and the non-ESBL resistant dataset comes from our own lab. This second set non-resistant set is only needed for the pangenome and GWAS studies and will be provided on day 4. The ESBL resistance E. coli read files have been downloaded from [ENA](https://www.ebi.ac.uk/ena/browser/view/PRJNA833969).
 
 ### Where are the files located
 
@@ -41,7 +41,7 @@ In your home folder (~/), you may find different files. It is your own responsib
   
 ### Getting the Nanopore read files
 
-For the TRIuMPH course, we have downloaded the files for you. In the example we will be making use of the folder called "reads". 
+For the TRIuMPH course, we have downloaded the files for you and placed them in your folder. We will be making use of the folder called "reads".  
 
 ~~~
 $ cd ~/reads
@@ -57,7 +57,7 @@ $ mkdir reads
 $ ls
 ~~~
 
-You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the folder containing the run of minknow using the terminal. You will need one folder for each sample. In the example I have picked the top two.
+Only for your own data and your own server: You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the folder containing the run of minknow using the terminal. You will need one folder for each sample. In the example I have picked the top two.
 
 The MinKNOW software of Nanopore often generates several "barcode" folders of the samples you sequenced. Each barcode corresponds to one sample. In the folder you will find several files, each has several thousand nanopore reads. We need to combine these reads into a single file so that we can process these further. The command we will be using is [zcat](https://manpages.debian.org/testing/zutils/zcat.1.en.html). This commands combines unzipping a file with displaying it. We will redirect (>) the output into a new file which we can use.
 
