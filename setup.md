@@ -15,10 +15,6 @@ get help.
 - Click and the button and install Chrome
 - Other browsers will likely work as well but no guarantees
 
-### Visualization software 
-- Go to [https://github.com/rambaut/figtree/releases](https://github.com/rambaut/figtree/releases) and download Figtree (zip for windows, dmg for mac, .tgz for linux)
-- Go to [https://rrwick.github.io/Bandage/](https://rrwick.github.io/Bandage/) and download Bandage
-
 ### MinKNOW - not necessary for the course but useful for setting up your own bioinformatics pipeline
 For basecalling, MinKNOW can be used. MinKNOW is the basecalling package of Oxford Nanopore Technologies that allows you to basecall and demultiplex your samples. If you want to install MinKNOW on Windows, please follow these instructions: [Link](https://jpiamrtriumph.github.io/MicrobialGenomics/files/IPSN_InstallMinKNOWSoftware.pdf)  
 
