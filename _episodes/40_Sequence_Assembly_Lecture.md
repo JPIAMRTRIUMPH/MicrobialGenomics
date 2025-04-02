@@ -19,10 +19,14 @@ keypoints:
 
 ## Sequence assembly and assembly quality
 
-Once your assembly has started, you can follow the lecture by Professor Bas Dutilh. As it is difficult to time when everyone is ready for the lecture and genome assembly is very time consuming, we decided to make use of a prerecorded lecture. Slide handouts are available at [https://klif.uu.nl/klif/mgen/MicrobialGenomics_AssemblyStrategies_Linda.pdf](https://klif.uu.nl/klif/mgen/MicrobialGenomics_AssemblyStrategies_Linda.pdf)
+Next up is a lecture which details assembly strategies, different kind of assemblers and ways of assessing assembly quality. If you have any questions please raise your hand. You should be able to answer the question why a short k-mer (21 bp in our example) results in a poorer assembly than a longer k-mer (e.g. 55 bp). You should also know the difference between the contigs and the scaffolds. 
 
-This lecture details assembly strategies, different kind of assemblers and ways of assessing assembly quality and binning of contigs when doing metagenomic assembly. After the assembly lecture there is a lunch break. If you have any questions please put up your hand. You should be able to answer the question why a short k-mer (21 bp in our example) results in a poorer assembly than a longer k-mer (e.g. 55 bp). You should also know the difference between the contigs and the scaffolds. 
+The slides are available here: [files/MicrobialGenomics_AssemblyStrategies_Linda.pptx](https://jpiamrtriumph.github.io/MicrobialGenomics/files/MicrobialGenomics_AssemblyStrategies_Linda.pptx)
+
+Alternatively, you can follow the lecture by Professor Bas Dutilh if you take this course on your own. This lecture details assembly strategies, different kind of assemblers and ways of assessing assembly quality and binning of contigs when doing metagenomic assembly.
 
 The lecture can be found here: [https://www.youtube.com/watch?v=mHmMbPxKmn0](https://www.youtube.com/watch?v=mHmMbPxKmn0) 
+Slide handouts of this extensive lecture are available at [https://klif.uu.nl/klif/mgen/MicrobialGenomics_AssemblyStrategies_Linda.pdf](https://klif.uu.nl/klif/mgen/MicrobialGenomics_AssemblyStrategies_Linda.pdf)
 
-The lecture takes 60 minutes. 
+This lecture takes 60 minutes. 
+
