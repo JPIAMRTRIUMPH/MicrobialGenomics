@@ -38,7 +38,7 @@ mkdir ~/regions/
 cd ~/assembly/
 
 for sample in barcode02 barcode03; do
-  grep "CTX-M-15" "$sample/amrfinderplus.txt" | cut -f 5,6,7 | while read contig start stop; do
+  grep "CTX-M" "$sample/amrfinderplus.txt" | cut -f 2,3,4 | while read contig start stop; do
     # Extract the sequence of the specified contig
     seq=$(awk -v contig="$contig" '
       BEGIN { found=0 }
