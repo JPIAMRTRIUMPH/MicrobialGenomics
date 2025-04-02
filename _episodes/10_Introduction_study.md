@@ -23,7 +23,7 @@ We will be making use of the command line interface on the [Jupyterhub site](htt
 
 ### How to login
 
-The server we will be using has host address [Jupyterhub site](https://klif.uu.nl:8080/). Please login using your webbrowser. The username and password have been given in the group chat. Please take a look at the  the [Google Sheets table](https://docs.google.com/x) and write your name in the appropriate field to find out which two samples are assigned to you. To acccess the terminal, click on "New", top left and open "Linux Terminal". Bookmark it and give it an appropriate name so you can find it again later. 
+The server we will be using has host address [Jupyterhub site](https://klif.uu.nl:8080/). Please login using your webbrowser. The username and password have been given in the group chat. Please take a look at the  the [Google Sheets table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?usp=sharing) and write your name in the appropriate field to find out which two samples are assigned to you. To acccess the terminal, click on "New", top left and open "Linux Terminal". Bookmark it and give it an appropriate name so you can find it again later. 
 
 ### Learning how the speak the language of the Linux commandline. 
 
