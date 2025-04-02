@@ -19,7 +19,7 @@ Next up is a presentation on sequence read quality and sequencing methods. The s
 
 If you are following this course on your own you can make use of a prerecorded lecture by Professor Bas Dutilh, from Theoretical Biology and Bioinformatics at UU and Jena University in Germany. [https://www.youtube.com/watch?v=sdxVDy0lSAE](https://www.youtube.com/watch?v=sdxVDy0lSAE)
 
-The lecture will take approximately 20 minutes. After that there is time for a break and time for asking questions.
+The lecture will take approximately 20 minutes. After that there is time for asking questions.
 
 Checking the Nanopore sequencing quality can be done using [NanoStat](https://github.com/wdecoster/nanostat) . it generates a quick summary of the number of bases, the number of reads, the length of the reads and the quality of the reads. in general we expect about 30x more bases than the size of the genome and a mean read length of >3kb. The quality can range between 11 and 18 depending on the sequencing kit, flowcell, basecalling model used.
 
