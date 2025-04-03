@@ -39,7 +39,7 @@ The ESBL resistant dataset we will be using comes from this paper: [Within-farm 
 
 In your home folder (~/), you may find different files. It is your own responsibility to take care of your files. We will create the folders you will be using and download the read files that are part of this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on for the genome comparisons.
   
-### Getting the Nanopore read files
+### Nanopore read files
 
 For the TRIuMPH course, we have downloaded the files for you and placed them in your folder. We will be making use of the folder called "reads".  
 
@@ -48,6 +48,8 @@ $ cd ~/reads
 $ ls
 ~~~
 You can see your readfiles in this folder. 
+
+### How to get the nanopore read files if you use your own data. Not for this course. 
 
 If you take this course on your own, on your own server, you have to make an appropriate folder for your read files and get them from the minknow run folder.
 
