@@ -10,7 +10,6 @@ objectives:
 - "Assemble the long reads"
 keypoints:
 - "Assembly is a process which aligns and merges fragments from a longer DNA sequence in order to reconstruct the original sequence."
-- "k-mers are short fragments of DNA of length k"
 - "Assembly is a time consuming process. Make sure you plan it well"
 ---
 
