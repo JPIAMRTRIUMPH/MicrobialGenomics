@@ -12,14 +12,13 @@ objectives:
 - "Understanding different assembly quality analysis methods"
 keypoints:
 - "Assembly is a process which aligns and merges fragments from a longer DNA sequence in order to reconstruct the original sequence."
-- "k-mers are short fragments of DNA of length k"
 - "Quality can be assessed using N50 but also using other methods"
 
 ---
 
 ## Sequence assembly and assembly quality
 
-Next up is a lecture which details assembly strategies, different kind of assemblers and ways of assessing assembly quality. If you have any questions please raise your hand. You should be able to answer the question why a short k-mer (21 bp in our example) results in a poorer assembly than a longer k-mer (e.g. 55 bp). You should also know the difference between the contigs and the scaffolds. 
+Next up is a lecture which details assembly strategies, different kind of assemblers and ways of assessing assembly quality. If you have any questions please raise your hand. You should be able to know the difference between the contigs and the scaffolds and how to assess the quality of an assembly.  
 
 The slides are available here: [files/MicrobialGenomics_AssemblyStrategies_Linda.pptx](https://jpiamrtriumph.github.io/MicrobialGenomics/files/MicrobialGenomics_AssemblyStrategies_Linda.pptx)
 
