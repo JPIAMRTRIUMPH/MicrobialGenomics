@@ -20,7 +20,7 @@ keypoints:
 
 Next up is a lecture which details assembly strategies, different kind of assemblers and ways of assessing assembly quality. If you have any questions please raise your hand. You should be able to know the difference between the contigs and the scaffolds and how to assess the quality of an assembly.  
 
-The slides are available here: [files/MicrobialGenomics_AssemblyStrategies_Linda.pptx](https://jpiamrtriumph.github.io/MicrobialGenomics/files/MicrobialGenomics_AssemblyStrategies_Linda.pptx)
+The slides are available here: [files/MicrobialGenomics_AssemblyStrategies_Linda_Triumph.pptx](https://jpiamrtriumph.github.io/MicrobialGenomics/files/MicrobialGenomics_AssemblyStrategies_Linda_Triumph.pptx)
 
 Alternatively, you can follow the lecture by Professor Bas Dutilh if you take this course on your own. This lecture details assembly strategies, different kind of assemblers and ways of assessing assembly quality and binning of contigs when doing metagenomic assembly.
 
