@@ -72,7 +72,7 @@ Obviously we want to select the closest match as possible. In the case of e.g. S
 CheckM can be run by the following commandline in the case of an Streptococcus pneumoniae genome called genome.fasta in the current folder (".") using the following command line. All output is stored in the folder checkmout and a useful table is checkmoutput.tsv. 
 ~~~
 $ 
-$ checkm taxonomy_wf species "Streptococcus pneumoniae" . checkmout -t 1 -x fasta  >checkmoutput.tsv
+$ checkm taxonomy_wf species "Escherichia coli" . checkmout -t 1 -x fasta  >checkmoutput.tsv
 ~~~
 {: .bash}
 
