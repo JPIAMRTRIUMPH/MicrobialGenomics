@@ -47,7 +47,7 @@ For this, we need to find if the genes are present in the annotated files.
 > {: .solution}
 {: .challenge}
 
-Note for each genome if the gene has been found or not. Mark them as present (1) in the [Google Sheet](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit#gid=0), else mark the gene that differs or is absent as 0. 
+Note for each genome if the gene has been found or not. Mark them as present (1) in the [Google Sheet](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=0#gid=0), else mark the gene that differs or is absent as 0. 
 
 
 ## Pangenome analysis
