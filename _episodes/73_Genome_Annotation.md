@@ -41,7 +41,7 @@ Let's copy these first 50 lines of the scaffold including the header by moving o
 > Search for the longest ORF. If you have found it, click on 'Mark'. Submit the longest ORF to BLAST, use the non redundant protein (nr) database.
 > 
 > How will this ORF be annotated? Is it a gene or something else? What does the gene do? Fill your annotation into the
-> [table](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit#gid=0) under the header ORF.
+> [table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=0#gid=0) under the header ORF.
 > 
 {: .challenge}
 
@@ -159,7 +159,7 @@ The .txt files contain some statistics on how many annotated genes are found. Th
 > ## Challenge: How many coding regions did PROKKA find in the contigs?
 >
 > Find out how many coding regions there are in the *E. coli* isolates. Enter your solution in the
-> [table](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit#gid=0) under the head 'Number of CDS'
+> [table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=0#gid=0) under the head 'Number of CDS'
 >
 > Hint:
 > ~~~
@@ -186,13 +186,13 @@ The .txt files contain some statistics on how many annotated genes are found. Th
 Is your solution the same or do you get other numbers of coding regions? What could be possible explanations 
 if the solution differs? 
 
-Repeat the same exercise with the key word 'tRNA' to see how many tRNAs there are and fill into the [table](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit#gid=0) under the head 'tRNA'
+Repeat the same exercise with the key word 'tRNA' to see how many tRNAs there are and fill into the [table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=0#gid=0) under the head 'tRNA'
 
 
 > ## Challenge 2: How many hypothetical proteins are in the annotation?
 >
 > Find out how coding regions without a function assigned there are in the *E. coli* isolates. Enter your solution in the
-> [table](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit#gid=0) under the head 'hypothetical proteins'
+> [table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=0#gid=0) under the head 'hypothetical proteins'
 >
 > Hint:
 > ~~~
