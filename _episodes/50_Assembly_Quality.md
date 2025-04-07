@@ -79,7 +79,7 @@ $ checkm taxonomy_wf species "Escherichia coli" . checkmout -t 1 -x fasta  >chec
 It is possible to run the commmand on multiple genomes for faster analyses in the folder called "genomes" on all files with the extension (-x) .fasta:
 
 ~~~
-$ checkm taxonomy_wf species "Streptococcus pneumoniae" genomes checkmout -t 1 -x fasta  >checkmoutput.tsv
+$ checkm taxonomy_wf species "Escherichia coli" genomes checkmout -t 1 -x fasta  >checkmoutput.tsv
 ~~~
 {: .bash}
 
