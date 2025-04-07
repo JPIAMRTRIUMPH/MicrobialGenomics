@@ -29,7 +29,7 @@ $ NanoStat --fastq barcode02.fastq
 $ NanoStat --fastq barcode03.fastq
 ```
 
-Record the number of bases, the estimated sequencing depth (number of bases divided by expected size of the genome) and the mean read length in the [Google Docs file](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit#gid=0)
+Record the number of bases, the estimated sequencing depth (number of bases divided by expected size of the genome) and the mean read length in the [Google Docs file](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=0#gid=0)
 
 Sometimes the Nanopore output is really high. [Filtlong](https://github.com/rrwick/Filtlong) can be used to reduce the amount of read data to more manageable levels. Using this command we reduce the expected coverage to about 100x. This is not necessary in the example data for this course.
 
