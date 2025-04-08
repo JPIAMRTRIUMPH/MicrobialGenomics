@@ -106,7 +106,7 @@ $
 ~~~
 {: .bash}
 
-Download the .svg and html files you have just created and open it into a webbrowser. 
+Download the html file regions.html you have just created and open it into a webbrowser. 
 
 
 
