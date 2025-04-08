@@ -20,13 +20,10 @@ In the previous exercises we detected a resistance gene. If you want to investig
 ## Webbased use of Clinker
 
 Download the zip file with extracted regions here: [regions.zip](https://jpiamrtriumph.github.io/MicrobialGenomics/files/regions.zip)
-Unzip the extracted regions file to a folder
+Unzip the extracted regions file to a folder called "regions"
 
-Visit the website [https://cagecat.bioinformatics.nl/](https://cagecat.bioinformatics.nl/) and press start at the "cblaster" button
-
-Fill in the details. Use NR for all proteins as annotation source, Refseq for only complete reference genomes, Swissprot for the manuallly curated Swissprot database. NR will be slow and might have false annotations. Refseq is faster. With Swissprot the annotations will be very precise but not alle proteins are in Swissprot. Press Query file and selected the unzipped .fasta files in the folder that contains the genetic regions you are interested in. Each region should be one file.
-
-RUn Clinker. Press start.
+Visit the website [https://cagecat.bioinformatics.nl/](https://cagecat.bioinformatics.nl/) and press the "Start" button at the Clinker section. 
+Click on Genome Files and the navigate to the unzipped "regions" folder. Select all gbk files by pressing Shift and selecting all files. Press Open and then press the Submit button. 
 
 ## Manual commandline use of Clinker
 
@@ -59,7 +56,7 @@ for sample in barcode01 barcode02 barcode03 barcode04 barcode05 barcode06 barcod
       found { printf "%s", $0 }
     ' "$sample/assembly.fasta")
 
-    # Define extraction range
+    # Define extraction range. In the example 5000 basepairs, but you can adjust this
     seq_length=${#seq}
     extract_start=$((start - 5000))
     extract_stop=$((stop + 5000))
@@ -72,7 +69,7 @@ for sample in barcode01 barcode02 barcode03 barcode04 barcode05 barcode06 barcod
     extracted_seq=$(echo "$seq" | cut -c "$extract_start"-"$extract_stop")
 
     # Write to output file
-    echo -e ">$contig:$extract_start-$extract_stop\n$extracted_seq" > ~/regions/"$sample".fasta
+    echo -e ">$sample\n$extracted_seq" > ~/regions/"$sample".fasta
   done
 done
 
