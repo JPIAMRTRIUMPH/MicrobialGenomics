@@ -88,7 +88,7 @@ We can annotate these using the following commands so that we can compare the ge
 ~~~
 $ cd ~/regions
 $ for region in barcode01 barcode06 barcode14 barcode15 barcode16 barcode17 barcode18 barcode19 barcode20 barcode24; do
-  prokka --outdir ~/regions/"$region" --prefix $sample ~/regions/"$region".fasta --usegenus -genus Escherichia --cpus 1 --rawproduct --locustag $region
+  prokka --outdir ~/regions/"$region" --prefix $region ~/regions/"$region".fasta --usegenus -genus Escherichia --cpus 1 --rawproduct --locustag $region
 done
 
 ~~~
