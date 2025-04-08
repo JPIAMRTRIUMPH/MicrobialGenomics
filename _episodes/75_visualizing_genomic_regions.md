@@ -31,7 +31,7 @@ This manual Clinker exercise should only be done *after* you have completed the 
 
 ### Extracting regions
 
-This exercise can be done on all the genomes from the study. If you want to run this, please perform the following commands
+This exercise can be done on all the genomes from the study. If you want to run this, please perform the following commands. Please just copy and paste the code into a text document, adjust the settings if necessary, and then copy and paste into your shell. 
 
 ~~~
 #first we get all assembled genomes with all AMRFinderPlus outputs in them, same as you generated before, but now for all genomes
