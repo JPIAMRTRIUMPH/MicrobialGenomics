@@ -23,7 +23,7 @@ Download the zip file with extracted regions here: [regions.zip](https://jpiamrt
 Unzip the extracted regions file to a folder called "regions"
 
 Visit the website [https://cagecat.bioinformatics.nl/](https://cagecat.bioinformatics.nl/) and press the "Start" button at the Clinker section. 
-Click on Genome Files and the navigate to the unzipped "regions" folder. Select all gbk files by pressing Shift and selecting all files. Press Open and then press the Submit button. 
+Click on Genome Files and the navigate to the unzipped "regions" folder. Select all gbk files by pressing Shift and selecting all files. Press Open and then press the Submit button. It takes about a minute to run the analysis. You can now adjust the output to suit your needs. Move the fragments around (click on the name and move up or down) or flip them (double click on the sequence). Use the "Scale factor", "Show gene labels" and "Label type" options to improve the visualization. 
 
 ## Manual commandline use of Clinker
 
