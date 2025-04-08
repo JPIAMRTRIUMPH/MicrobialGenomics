@@ -33,12 +33,21 @@ RUn Clinker. Press start.
 This manual Clinker exercise should only be done *after* you have completed the annotation exercise from day 3 and if you feel compfortable using the commandline. It requires a good understanding of the input files of Clinker and how to get annotations. The commandline extraction procedure is complex and possibly it is better to do this by hand.
 
 ### Extracting regions
-~~~
-mkdir ~/regions/
-cd ~/assembly/
 
-for sample in barcode02 barcode03; do
-  grep "CTX-M" "$sample/amrfinderplus.txt" | cut -f 2,3,4 | while read contig start stop; do
+This exercise can be done on all the genomes from the study. If you want to run this, please perform the following commands
+
+~~~
+#first we get all assembled genomes with all AMRFinderPlus outputs in them
+cp -r /mnt/netappits/users/courses2/shared/triumph/assembly_all ~/assembly_all
+
+# We make the output folder
+mkdir ~/regions/
+
+# We run the script that finds CTX-M-14 from all the AMRFinderPlus outputs from all assembled genomes. You can change CTX-M-14 to another gene of interest (e.g. CTX-M-15). The gene itself, 5 kb left of the gene and 5 kb right of the gene are extracted and placed into a file in the folder ~/regions/
+
+cd ~/assembly_all/
+for sample in barcode01 barcode02 barcode03 barcode04 barcode05 barcode06 barcode07 barcode08 barcode09 barcode10 barcode11 barcode12 barcode13 barcode14 barcode15 barcode16 barcode17 barcode18 barcode19 barcode20 barcode21 barcode22 barcode23 barcode24; do
+  grep "CTX-M-14" "$sample/amrfinderplus.txt" | cut -f 2,3,4 | while read contig start stop; do
     # Extract the sequence of the specified contig
     seq=$(awk -v contig="$contig" '
       BEGIN { found=0 }
@@ -73,9 +82,12 @@ done
 
 ### Annotating extracted regions
 
+The above command was run on all the assembled genomes from this study. CTX-M-14 is found in barcode01 barcode06 barcode14 barcode15 barcode16 barcode17 barcode18 barcode19 barcode20 barcode24 according to the AMRFinderPlus analysis. 
+We can annotate these using the following commands so that we can compare the genes in the regions using Clinker
+
 ~~~
 $ cd ~/regions
-$ for region in barcode02 barcode02 ; do
+$ for region in barcode01 barcode06 barcode14 barcode15 barcode16 barcode17 barcode18 barcode19 barcode20 barcode24; do
   prokka --outdir ~/regions/"$region" --prefix $sample ~/regions/"$region".fasta --usegenus -genus Escherichia --cpus 1 --rawproduct --locustag $region
 done
 
@@ -83,6 +95,9 @@ done
 {: .bash}
 
 ### Running Clinker in the commandline
+
+Finally, we can run Clinker on the annotated regions. Clinker needs to use gbk (Genbank) files
+
 ~~~
 $ cd ~/regions/
 $ clinker barcode*/*.gbk -p regions.html
