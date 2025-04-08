@@ -19,7 +19,7 @@ In the previous exercises we detected a resistance gene. If you want to investig
 
 ## Webbased use of Clinker
 
-Download the zip file with extracted regions here: [regions.zip](files/regions.zip)
+Download the zip file with extracted regions here: [regions.zip](https://jpiamrtriumph.github.io/MicrobialGenomics/files/regions.zip)
 Unzip the extracted regions file to a folder
 
 Visit the website [https://cagecat.bioinformatics.nl/](https://cagecat.bioinformatics.nl/) and press start at the "cblaster" button
@@ -121,7 +121,7 @@ Download the html file regions.html you have just created and open it into a web
 ![image](https://github.com/user-attachments/assets/a8f48a9f-1eeb-4afa-aa2a-824e87c98dee)
 > >
 > > Discuss with the class.
-> > The report.html can also be downloaded here: [regions.html](https://raw.githubusercontent.com/JPIAMRTRIUMPH/MicrobialGenomics/refs/heads/gh-pages/files/regions.html) : use right mouse button, click save target as.
+> > The report.html can also be downloaded here: [regions.html](https://jpiamrtriumph.github.io/MicrobialGenomics/files/regions.html) : use right mouse button, click save target as.
 > > 
 > > {: .output}
 > {: .solution}
