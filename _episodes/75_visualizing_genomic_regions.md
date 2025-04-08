@@ -109,13 +109,15 @@ $
 Download the .svg and html files you have just created and open it into a webbrowser. 
 
 
+
 > ## Challenge: Is the resistance gene location conserved?
 >
 > Compare the regions, are the genes the same on all regions? What differences can you see?. 
 > 
 > 
 > > ## Solution
-> >
+> > The output can be made to look like this after moving the fragments around (click on the name and move up or down) and flipping them (double click on the sequence)
+![image](https://github.com/user-attachments/assets/a8f48a9f-1eeb-4afa-aa2a-824e87c98dee)
 > > Discuss with the class. 
 > > {: .output}
 > {: .solution}
