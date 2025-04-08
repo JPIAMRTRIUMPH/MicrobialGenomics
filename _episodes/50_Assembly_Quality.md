@@ -88,7 +88,7 @@ The file checkmoutput.tsv contains three relevant outputs: completeness, contami
 > ## Challenge: What is the quality of your genome assemblies
 >
 >  Determine the number of contigs, assembly sizes, N50, completeness for your genomes and enter these in this
-> [table](https://docs.google.com/spreadsheets/d/1KI0KA0Rcbg3pKrFRDKikrj4Mdo5pmV60nOodNzNtZp4/edit#gid=0) . __Make sure to select the correct species for CheckM__!
+> [table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=0#gid=0) . __Make sure to select the correct species for CheckM__!
 >
 > Hint:
 > ~~~
