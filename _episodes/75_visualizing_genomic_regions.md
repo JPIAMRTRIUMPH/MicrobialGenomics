@@ -15,14 +15,14 @@ keypoints:
 
 
 ## Introduction
-In the previous exercises we detected a resistance gene. If you want to investigate if the genetic region is similar, suggesting a common source or clonal spread, the region can be investigated using a tool called https://github.com/gamcil/clinker . Clinker is available via commandline but also via the https://cagecat.bioinformatics.nl/ webserver. We will discuss both options and perform one of the options below. We have also included a piece of shell code to extract and annotate the regions, however you can also cut and paste the sequence from the contigs using a text editor. For this course, we provide an example of several regions with a resistance gene, however the code can be used to generate your own at a later timepoint.
+In the previous exercises we detected a resistance gene. If you want to investigate if the genetic region is similar, suggesting a common source or clonal spread, the region can be investigated using a tool called [Clinker](https://github.com/gamcil/clinker) . Clinker is available via commandline but also via the [https://cagecat.bioinformatics.nl/](https://cagecat.bioinformatics.nl/) webserver. We will discuss both options and perform one of the options below. We have also included a piece of shell code to extract and annotate the regions, however you can also cut and paste the sequence from the contigs using a text editor. For this course, we provide an example of several regions with a resistance gene, however the code can be used to generate your own at a later timepoint.
 
 ## Webbased use of Clinker
 
-Download the zip file with extracted regions here: 
+Download the zip file with extracted regions here: [regions.zip](files/regions.zip)
 Unzip the extracted regions file to a folder
 
-Visit the website https://cagecat.bioinformatics.nl/ and press start at the "cblaster" button
+Visit the website [https://cagecat.bioinformatics.nl/](https://cagecat.bioinformatics.nl/) and press start at the "cblaster" button
 
 Fill in the details. Use NR for all proteins as annotation source, Refseq for only complete reference genomes, Swissprot for the manuallly curated Swissprot database. NR will be slow and might have false annotations. Refseq is faster. With Swissprot the annotations will be very precise but not alle proteins are in Swissprot. Press Query file and selected the unzipped .fasta files in the folder that contains the genetic regions you are interested in. Each region should be one file.
 
@@ -30,14 +30,14 @@ RUn Clinker. Press start.
 
 ## Manual commandline use of Clinker
 
-This manual Clinker exercise should only be done *after* you have completed the annotation exercise from day 3 and if you feel compfortable using the commandline. It requires a good understanding of the input files of Clinker and how to get annotations. The commandline extraction procedure is complex and possibly it is better to do this by hand.
+This manual Clinker exercise should only be done *after* you have completed the annotation exercise from day 3 and if you feel compfortable using the commandline. This is not an easy command. It requires a good understanding of the input files of Clinker and how to get annotations. The commandline extraction procedure is complex and possibly it is better to do this by hand.
 
 ### Extracting regions
 
 This exercise can be done on all the genomes from the study. If you want to run this, please perform the following commands
 
 ~~~
-#first we get all assembled genomes with all AMRFinderPlus outputs in them
+#first we get all assembled genomes with all AMRFinderPlus outputs in them, same as you generated before, but now for all genomes
 cp -r /mnt/netappits/users/courses2/shared/triumph/assembly_all ~/assembly_all
 
 # We make the output folder
@@ -117,8 +117,12 @@ Download the html file regions.html you have just created and open it into a web
 > 
 > > ## Solution
 > > The output can be made to look like this after moving the fragments around (click on the name and move up or down) and flipping them (double click on the sequence)
+> > 
 ![image](https://github.com/user-attachments/assets/a8f48a9f-1eeb-4afa-aa2a-824e87c98dee)
-> > Discuss with the class. 
+> >
+> > Discuss with the class.
+> > The report.html can also be downloaded here: [regions.html](https://raw.githubusercontent.com/JPIAMRTRIUMPH/MicrobialGenomics/refs/heads/gh-pages/files/regions.html) : use right mouse button, click save target as.
+> > 
 > > {: .output}
 > {: .solution}
 {: .challenge}
