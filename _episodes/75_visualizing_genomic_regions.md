@@ -69,7 +69,7 @@ for sample in barcode01 barcode02 barcode03 barcode04 barcode05 barcode06 barcod
     extracted_seq=$(echo "$seq" | cut -c "$extract_start"-"$extract_stop")
 
     # Write to output file
-    echo -e ">$sample\n$extracted_seq" > ~/regions/"$sample".fasta
+    echo -e ">"$sample"\n$extracted_seq" > ~/regions/"$sample".fasta
   done
 done
 
@@ -85,7 +85,7 @@ We can annotate these using the following commands so that we can compare the ge
 ~~~
 $ cd ~/regions
 $ for region in barcode01 barcode06 barcode14 barcode15 barcode16 barcode17 barcode18 barcode19 barcode20 barcode24; do
-  prokka --outdir ~/regions/"$region" --prefix $region ~/regions/"$region".fasta --usegenus -genus Escherichia --cpus 1 --rawproduct --locustag $region
+  prokka --outdir ~/regions/"$region" --prefix "$region" ~/regions/"$region".fasta --usegenus -genus Escherichia --cpus 1 --rawproduct --locustag "$region"
 done
 
 ~~~
