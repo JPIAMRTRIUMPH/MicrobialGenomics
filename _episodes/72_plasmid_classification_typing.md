@@ -39,6 +39,14 @@ $  platon assembly.fasta --output output --threads 2 --verbose --db /mnt/DGK_KLI
 ~~~
 {: .bash}
 
+If you want to run a loop, please try the following:
+
+~~~
+$ cd ~/assembly
+$ for sample in barcode17 barcode18 ; do platon $sample/assembly.fasta --output $sample/platon --threads 2 --verbose --db /mnt/DGK_KLIF/open/db/platon/db ; done
+~~~
+{: .bash}
+
 Please try it yourself. Try to find the output and open the files. Are there differences in the classification between RFPlasmid and Platon? 
 
 ## Plasmidtyping
