@@ -13,7 +13,7 @@ keypoints:
 
 ## Introduction
 
-As mentioned in the first part of this exercise series, the 34 *E.coli* isolates were from resistant bacteria. We will therefore try to find out if there are specific genes that are associated with resistance. 
+As mentioned in the first part of this exercise series, the 24 *E.coli* isolates were from resistant bacteria. We will therefore try to find out if there are specific genes that are associated with resistance. 
 
 ### Bacterial Genome Wide Association Studies (GWAS)
 
@@ -22,7 +22,7 @@ An excellent primer on bacterial GWAS is available here: [https://www.ncbi.nlm.n
 Copy and paste the columns with the names and resistance from the tab "annotations.txt" in a file from the assembly statistics excel file, including the "Name<tab>Resistance" header. Any texteditor can be used but in this example nano is used. You can also get the file from the previous lesson. The file can also be made on your own computer and uploaded using your webbrowser. The header (first line) should always start with "Name" followed by the phenotype (Resistance). 
 
 ~~~
-$ cd ~/orthology
+$ cd ~/orthology_en
 $ nano annotations.txt #paste the sheet annotations.txt into the file. please remove any empty lines at the bottom of the textfile
 $ cat annotations.txt |tr "\t" "," > traits.csv
 ~~~
