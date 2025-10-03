@@ -96,6 +96,7 @@ done
 Finally, we can run Clinker on the annotated regions. Clinker needs to use gbk (Genbank) files
 
 ~~~
+$ conda activate clinker
 $ cd ~/regions/
 $ clinker barcode*/*.gbk -p regions.html
 $ 
