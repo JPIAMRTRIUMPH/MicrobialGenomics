@@ -24,6 +24,8 @@ The lecture will take approximately 20 minutes. After that there is time for ask
 Checking the Nanopore sequencing quality can be done using [NanoStat](https://github.com/wdecoster/nanostat) . it generates a quick summary of the number of bases, the number of reads, the length of the reads and the quality of the reads. in general we expect about 30x more bases than the size of the genome and a mean read length of >3kb. The quality can range between 11 and 18 depending on the sequencing kit, flowcell, basecalling model used.
 
 ```
+$ conda activate genomics # check your environment. Most software is in genomics, but some tools have their own environment.
+$ conda env list # check which environments you have. If the commandline says it can't find a program, activate the correct environment.
 $ cd ~/reads
 $ NanoStat --fastq barcode02.fastq
 $ NanoStat --fastq barcode03.fastq
